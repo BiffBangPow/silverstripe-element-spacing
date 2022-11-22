@@ -1,28 +1,29 @@
 {
-  "name": "biffbangpow/silverstripe-element-spacing",
-  "description": "Adds Bootstrap spacer classes to the elemental container",
-  "type": "silverstripe-vendormodule",
-  "minimum-stability": "dev",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "Tim Burt",
-      "email": "tim@biffbangpow.com"
+    "name": "biffbangpow/silverstripe-element-spacing",
+    "description": "Adds Bootstrap spacer classes to the elemental container",
+    "type": "silverstripe-vendormodule",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tim Burt",
+            "email": "tim@biffbangpow.com"
+        },
+        {
+            "name": "James Heathcote",
+            "email": "james.h@biffbangpow.com"
+        }
+    ],
+    "require": {
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/cms": "^4",
+        "dnadesign/silverstripe-elemental": "^4@stable || ^3@stable"
     },
-    {
-      "name": "James Heathcote",
-      "email": "james.h@biffbangpow.com"
+    "autoload": {
+        "psr-4": {
+            "BiffBangPow\\Extension\\": "src/"
+        }
+    },
+    "extra": {
     }
-  ],
-  "require": {
-    "silverstripe/vendor-plugin": "^1.0",
-    "silverstripe/cms": "^4"
-  },
-  "autoload": {
-    "psr-4": {
-      "BiffBangPow\\Extension\\": "src/"
-    }
-  },
-  "extra": {
-  }
 }
