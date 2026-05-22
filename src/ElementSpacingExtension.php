@@ -2,12 +2,13 @@
 
 namespace BiffBangPow\Extension;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldGroup;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
 
-class ElementSpacingExtension extends DataExtension
+
+class ElementSpacingExtension extends Extension
 {
     private static $db = [
         'PadTop' => 'Boolean(1)',
