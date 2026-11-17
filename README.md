@@ -16,4 +16,4 @@ The following class names are added based on what is selected:
 - bbp-marginleft
 
 
-*Note:* the add on does NOT add any CSS for these.  That should be done in the application / project styles.
+*Note:* the addon does NOT add any CSS for these.  That should be done in the application / project styles.
