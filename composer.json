@@ -15,8 +15,7 @@
         }
     ],
     "require": {
-        "dnadesign/silverstripe-elemental": "*",
-        "silverstripe/linkfield": "^5"
+        "dnadesign/silverstripe-elemental": "*"
     },
     "autoload": {
         "psr-4": {
